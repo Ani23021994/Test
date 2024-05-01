@@ -1,0 +1,29 @@
+commit 741c79ebd8824f12e554f08d7810073109137de0
+Author: Ani23021994 <anirudhhunny23@gmail.com>
+Date:   Wed May 1 14:56:16 2024 +0530
+
+    removed A1
+
+commit dd594f4f805e4c3a69f2f5b7d8ccd954aec6a6dd
+Author: Ani23021994 <87862585+Ani23021994@users.noreply.github.com>
+Date:   Wed May 1 14:54:07 2024 +0530
+
+    Update A1
+
+commit a57d6e323af46dfc9e91c32a5425871cbdba3264
+Author: Ani23021994 <anirudhhunny23@gmail.com>
+Date:   Wed May 1 14:52:31 2024 +0530
+
+    addes devops, removed aws
+
+commit 4aced44c65375e896823c5dd4078baeb40a11db6
+Author: vats-ankit <akvats007@gmail.com>
+Date:   Wed May 1 14:40:55 2024 +0530
+
+    2nd Commit
+
+commit 360546b80800a1f7bdd1caa0db8108aef3d7603b
+Author: vats-ankit <akvats007@gmail.com>
+Date:   Wed May 1 14:35:25 2024 +0530
+
+    first commit
