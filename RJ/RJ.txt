@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #clock {
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+            padding-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="clock"></div>
+
+    <script>
+        function updateClock(){
+            var now = new Date(); // get the current date/time
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            // Pad the hours, minutes and seconds with leading zeros if required
+            hours = (hours < 10 ? "0" : "") + hours;
+            minutes = (minutes < 10 ? "0" : "") + minutes;
+            seconds = (seconds < 10 ? "0" : "") + seconds;
+
+            // Format the clock string
+            var clockStr = hours + ":" + minutes + ":" + seconds;
+
+            // Insert into the DOM
+            document.getElementById("clock").innerHTML = clockStr;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+    </script>
+</body>
+</html>
+
